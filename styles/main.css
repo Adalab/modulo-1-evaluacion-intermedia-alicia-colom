@@ -8,6 +8,7 @@
 /********* reset styles *********/
 * {
   margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -27,14 +28,26 @@ ul {
   position: fixed;
 }
 
+.logo-container {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   width: 155px;
 }
 
 .menu {
+  display: flex;
+  justify-content: space-around;
+
+  padding-bottom: 13px;
 }
 
 .list {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .item-list {
@@ -45,6 +58,14 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.link-blog {
+  padding-right: 10px;
+}
+
+.link-contact {
+  padding-left: 10px;
 }
 
 /********* MAIN styles *********/
