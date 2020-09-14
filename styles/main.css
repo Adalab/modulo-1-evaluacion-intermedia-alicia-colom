@@ -1,8 +1,46 @@
 /******** NOTES: ********
-
     font-family: 'Rubik', sans-serif; 
     #4a4a4a (Texto del menú)
     #3CDBC0 (Color de fondo de la página)
     #FFFFFF (Color de texto de "Creando diversidad digital")
-
 *********/
+
+/********* reset styles *********/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+}
+/********* HEADER styles *********/
+
+.header {
+}
+
+.logo {
+}
+
+.menu {
+}
+
+.list {
+}
+
+.item-list {
+}
+
+.link {
+}
+
+/********* MAIN styles *********/
+
+.main {
+  background: #3cdbc0;
+}
+
+.text {
+}
+
+/********* mediaqueries *********/
+
+@media all and (min-width: 768px) {
+}
