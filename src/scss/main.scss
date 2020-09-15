@@ -1,0 +1,105 @@
+/******** NOTES: ********
+    font-family: 'Rubik', sans-serif; 
+    #4a4a4a (Texto del menú)
+    #3CDBC0 (Color de fondo de la página)
+    #FFFFFF (Color de texto de "Creando diversidad digital")
+*********/
+
+/********* reset styles *********/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/********* HEADER styles *********/
+
+.header {
+  background: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.logo-container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 155px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-list {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.link {
+  color: #4a4a4a;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px 13px 10px;
+}
+
+/********* MAIN styles *********/
+
+.main {
+  background: #3cdbc0;
+  height: 100vh;
+  width: 100%;
+}
+
+.text-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/************* mediaqueries *************/
+
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    padding: 20px 0 20px 30px;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    padding: 0 30px 0 0;
+  }
+
+  .text {
+    font-size: 40px;
+  }
+}
